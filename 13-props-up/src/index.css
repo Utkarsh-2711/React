@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
