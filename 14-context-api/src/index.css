@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.light {
+    display: flex;
+    background-color: lightseagreen;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+}
+
+.dark {
+    display: flex;
+    background-color: rgb(48, 81, 80);
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+}
+
+.nav2 {
+    display: flex;
+    gap: 30px;
+}
